@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wind Speed vs. Lattitude</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a href="index.html" class="nav-link active">Lattitude Analysis</a>
+    </li>
+    <li class="nav-item dropdown ml-auto">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
+        <div class="dropdown-menu-right">
+            <a href="Temperature.html" class="dropdown-item">Temperature</a>
+            <a href="Humidity.html" class="dropdown-item">Humidity</a>
+            <a href="Cloudiness.html"class="dropdown-item">Cloudiness</a>
+            <a href="Wind_Speed.html"class="dropdown-item">Wind Speed</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a href="Compare.html" class="nav-link active">Plot Comparison</a>
+    </li>
+    <li class="nav-item">
+        <a href="Weather_DF.html" class="nav-link active">Dataset</a>
+    </li>
+</ul>
+
+  <div class="container">
+    <header class="header">
+      <h1>Wind Speed</h1>
+    </header>
+    <main>
+      <section class="posts">
+        <article class="post">
+          <h3>They don't call it the Windy City for nothing...</h3>
+          <ul>
+              <li>
+                <a href="#"><img src="images/Fig4.png"></a>
+              </li>
+            </ul>
+          <p>After visualizing wind speed vs. lattitude, it would appear fairly evenly distributed with 
+              some clear outliers. Overall, cities closer to the equator tend to have fairly lower wind 
+              speeds, but it looks like Norther hemisphere cities have some strong variation in their wind
+              speeds. Perhaps Chiacago, which sits at ~41 degrees lattitude, is one of those outliers boasting 
+              wind speeds over 30mph!
+          </p>
+        </article>
+      </section>
+    </main>
+  </div>
+  
+</body>
+
+</html>
